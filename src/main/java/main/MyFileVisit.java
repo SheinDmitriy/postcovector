@@ -84,7 +84,8 @@ public class MyFileVisit extends SimpleFileVisitor<Path> {
     public void roundLineInCVSFile(Path path) throws IOException{
         try {
             File file = new File("D:/proj/postcovector/" + path.getParent() + "/" + path.getFileName());
-//            file.renameTo(new File("D:/proj/postcovector/" + path.getParent() + "/" + path.getFileName() + "x"));
+
+//            file.renameTo(new File("D:/proj/postcovector/" + path.getParent() + "/" + path.getFileName() + "x")); ------------ переименовать файл
 //            file.createNewFile();
 //            inputStream = new FileInputStream(file);
 
